@@ -8,6 +8,8 @@ contract Election {
         uint256 voteCount;
     }
 
+    event AfterVote(uint256 indexed candidateId);
+
     mapping(uint256 => Candidate) public candidates;
     uint256 public candidatesCount;
     string public candidate;
@@ -34,5 +36,7 @@ contract Election {
         // Register vote & increment vote count
         voters[msg.sender] = true;
         candidates[candidateId].voteCount++;
+
+        emit AfterVote(candidateId);
     }
 }
