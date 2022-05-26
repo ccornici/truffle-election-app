@@ -51,6 +51,10 @@ You should now be able to pick a candidate and cast your vote.
 
 Metamask will pop up so you can confirm the transaction.
 
+![This is an image](./readme-res/voting.gif)
+
+
+
 ### Tests
 
 To run the tests:
