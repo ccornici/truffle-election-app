@@ -1,3 +1,5 @@
+![This is an image](./readme-res/voting.gif)
+
 # Intro
 
 ### Problem
@@ -50,10 +52,6 @@ npm run dev
 You should now be able to pick a candidate and cast your vote.
 
 Metamask will pop up so you can confirm the transaction.
-
-![This is an image](./readme-res/voting.gif)
-
-
 
 ### Tests
 
